@@ -28,7 +28,7 @@ body{
     color: #e8e8e8;
     font-weight: bolder;
     font-size: 15px;
-    font-family: 'Chalet';
+    font-family: "Chalet";
 }
 
 .cabecalho .menu li a:hover{
@@ -79,12 +79,12 @@ body{
 }
 
 .home .informacoes .titulo{
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 55px;
 }
 
 .home .informacoes .texto{
-    font-family: 'Chalet';
+    font-family: "Chalet";
     font-size:18px;
     line-height: 1.6;
 }
@@ -93,7 +93,7 @@ body{
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 28px;
     text-align: center;
     padding: 20px 40px;
@@ -126,7 +126,7 @@ body{
 }
  
 .compre-ja .titulo{
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -149,17 +149,17 @@ body{
     gap: 30px;
 }
 
-.compre-ja .informacoes h3{
-    font-family: 'ChaletComprime';
-    font-size: 52px;
-    font-weight: 700;
+.compre-ja .informacoes h3 {
+	font-family: "ChaletComprime";
+	font-size: 52px;
+	font-weight: 700;
 }
 
-.compre-ja .informacoes p{
-    color: #e8e8e8;
-    font-family: 'Chalet';
-    font-size: 16px;
-    line-height: 1.6;
+.compre-ja .informacoes p {
+	color: #e8e8e8;
+	font-family: "Chalet";
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 .compre-ja .informacoes .plataformas{
@@ -170,18 +170,19 @@ body{
 }
 
 .compre-ja .btn-plataforma .plataformas{
-    display: flex;
-    flex-direction: column;
     margin-top: 10px;
-    gap: 20px;
-    transition: all .3s ease-in;
-    display: none;
-    opacity: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	transition: all 0.3s ease-in;
+	display: none;
+	opacity: 0;
 }
 
-/* .compre-ja .btn-plataforma .plataformas.ativo{
-
-} */
+.compre-ja .btn-plataforma .plataformas.ativo{
+    display: flex;
+	opacity: 1;
+} 
 
 .compre-ja .btn-plataforma .plataformas li{
     padding: 20px;

@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto GTA</title>
+    <title>GTA V - Rockstar Games</title>
     <link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon">
+    <!-- LINK FONTE -->
     <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet">
-                
+                <!-- LINKS CSS -->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/fontes.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
 </head>
 <body>
     <header class="cabecalho">
@@ -17,6 +21,7 @@
         <hr>
         <img src="./src/imagens/logo-gta.svg" alt="Logo GTA V">
         </div>
+        <!-- Barra de navegação -->
         <nav>
             <ul class="menu">
                 <li>
@@ -31,6 +36,7 @@
             </ul>
         </nav>
     </header>
+    <!-- Inicio -->
     <main class="home" id="home">
         <img class="imagem-fundo" src="./src/imagens/bg-main.png" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo ">
         <div class="informacoes">
@@ -38,11 +44,11 @@
                 <img src="./src/imagens/logo-gta-v.svg" alt="Logo GTA V">
                 <img src="./src/imagens/logo-gta-online.svg" alt="Logo GTA Online">
             </div>
-            <h1 class="titulo">Já disponíveis para PlayStation 5 e Xbox Series X|S</h1>
-            <p class="texte">
+            <h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
+            <p class="texto">
                 Experimente os fênomenos de entretenimento Grand Theft Auto e GTA Online
             </p>
-
+            <!-- botao compre ja -->
             <a class="btn-comprar" href="#comprar">Compre já</a>
 
         </div>
@@ -52,10 +58,12 @@
         <div class="cartao">
             <img class="capa-do-jogo" src="./src/imagens/gta5.jpg" alt="Capa do jogo GTA V">
 
-            <div class="informacoes"></div>
+            <!-- sobre o jogo -->
+            <div class="informacoes">
             <h3>Grand Theft Auto V</h3>
             <p>
                 Inclui <strong>modo história do GTA V</strong> e <strong>GTA Online</strong>
+            </p>
                 <ul class="plataformas">
                     <li>
                         <img src="./src/imagens/logo-ps5.svg" alt="Logo PlayStation 5">
@@ -71,8 +79,8 @@
                     </li>
                     <li><img src="./src/imagens/logo-pc.svg" alt="Logo PC"></li>
                 </ul>
-            </p>
-
+            </div>
+            <!-- Botao para selecionar a plataforma -->
             <button class="btn-plataforma">
                 Selecione a plataforma
                 <ul class="plataformas">
@@ -93,5 +101,7 @@
             </button>
         </div>
     </section>
+    <!-- LINK JS -->
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
